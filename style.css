@@ -8,6 +8,7 @@ header {
     margin: 0;
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 header .top {
@@ -22,7 +23,7 @@ header .logo {
     color: black;
 }
 
-header nav ul {
+header .nav ul {
     display: flex;
 }
 
@@ -32,6 +33,7 @@ header p {
 
 .nav {
     display: block;
+    text-decoration: underline;
 }
 
 .nav a {
