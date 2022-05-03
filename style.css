@@ -4,7 +4,7 @@ html {
 }
 
 header {
-    background-color: black;
+    background-color:blanchedalmond;
     margin: 0;
     width: 100%;
     position: fixed;
@@ -24,6 +24,10 @@ header .logo {
 
 header nav ul {
     display: flex;
+}
+
+header p {
+    color: white;
 }
 
 .nav {
