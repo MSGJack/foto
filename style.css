@@ -3,6 +3,10 @@ html {
     font-size: 20px;;
 }
 
+body {
+    margin: auto;
+}
+
 header {
     background-color:blanchedalmond;
     margin: 0;
@@ -40,6 +44,10 @@ header p {
     color: black;
     font-size: 15px;
     text-decoration: underline;
+}
+
+.nav li {
+    padding: 10px
 }
 
 #signup {
@@ -163,6 +171,14 @@ header p {
 
 #quotes {
     background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+#quotes .words {
+    font-size: 30px;
+    color: black;
+    font-style: italic;
 }
 
 #quotes p {
