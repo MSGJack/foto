@@ -61,6 +61,7 @@ header p {
     background-position: center;
     align-items: flex-start;
     justify-content: flex-start;
+    height: 44rem;
 }
 
 #signblock {
@@ -114,7 +115,7 @@ header p {
 
 .feature {
     background-color: white;
-    margin: 0;
+    margin: 0 2.3rem;
     padding: 5% 0;
 }
 
@@ -201,4 +202,8 @@ footer .cr {
     color: white;
     display: flex;
     font-size: small;
+}
+
+.main {
+    position: relative;
 }
