@@ -108,8 +108,8 @@ header p {
 #list-features {
     display: flex;
     justify-content: space-between;
-    background-color: darkmagenta;
-    padding: 0% 6px;
+    background-color:cornflowerblue;
+    padding: 1.2rem;
 }
 
 .feature {
@@ -147,7 +147,7 @@ header p {
 }
 
 #list-filters {
-    background-color: antiquewhite;
+    background-color: gray;
 }
 
 #list-filters .filter h2 {
@@ -173,7 +173,7 @@ header p {
 }
 
 #quotes {
-    background-color: gray;
+    background-color: white;
     align-items: center;
     justify-content: center;
 }
@@ -193,8 +193,8 @@ header p {
 }
 
 footer {
-    background-color: darkblue;
-    padding: 30px 50px;
+    background-color: black;
+    padding: 3px 8px;
 }
 
 footer .cr {
