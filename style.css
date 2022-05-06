@@ -37,6 +37,11 @@ header p {
     color: white;
 }
 
+header .icon {
+    width: 1rem;
+    padding: .5rem;
+}
+
 .nav {
     display: block;
     text-decoration: underline;
