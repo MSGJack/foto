@@ -12,22 +12,25 @@ header {
     width: 100%;
     position: fixed;
     z-index: 1;
+    border-bottom: solid 1px black;
 }
 
 header .top {
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 0 1.3rem;
 }
 
 header .logo {
     font-size: large;
     font-weight: bold;
     color: black;
+    flex: auto;
 }
 
 header .nav ul {
     display: flex;
+    list-style: none;
 }
 
 header p {
@@ -157,20 +160,21 @@ header p {
 }
 
 #list-filters .filter {
-    padding: 0 .5rem;
-    margin: 4px;
+    padding: .2rem;
+    margin-left: 15rem;
+    margin-bottom: 1rem;
 }
 
 #list-filters .filter h2 {
     color: white;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 #list-filters .filter h3 {
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1rem;
 }
 
 #list-filters .list {
