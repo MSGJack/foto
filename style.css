@@ -153,6 +153,12 @@ header p {
 
 #list-filters {
     background-color: gray;
+    padding: 2.2rem 0;
+}
+
+#list-filters .filter {
+    padding: 0 .5rem;
+    margin: 4px;
 }
 
 #list-filters .filter h2 {
