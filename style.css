@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color:blanchedalmond;
+    background-color:whitesmoke;
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -23,7 +23,6 @@ header .top {
 
 header .logo {
     font-size: large;
-    font-weight: bold;
     color: black;
     flex: auto;
 }
@@ -39,7 +38,7 @@ header p {
 
 header .icon {
     width: 1rem;
-    padding: .5rem;
+    padding-left: .5rem;
 }
 
 .nav {
@@ -50,7 +49,7 @@ header .icon {
 .nav a {
     color: black;
     font-size: 15px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .nav li {
