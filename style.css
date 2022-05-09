@@ -1,6 +1,6 @@
 html {
     font-family: Roboto, sans-serif;
-    font-size: 20px;;
+    font-size: 16px;
 }
 
 body {
@@ -43,7 +43,6 @@ header .icon {
 
 .nav {
     display: block;
-    text-decoration: underline;
 }
 
 .nav a {
@@ -72,16 +71,20 @@ header .icon {
     width: 26rem;
     color: aliceblue;
     font-size: 1rem;
-    margin-top: .8rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 #signblock {
-    background-color:paleturquoise;
-    border: solid 5px black;
+    background-color: slateblue;
+    border: solid 5px gray;
     position: relative;
-    left: 10%;
-    border-radius: 5px;
-    padding: 0 10px;
+    left: 11%;
+    border-radius: 15px;
+    padding: 0 5rem 2.5rem 5rem;
+    top: 185px;
 }
 
 #signblock .header {
@@ -89,11 +92,12 @@ header .icon {
 }
 
 #signblock .cursive {
-    font-family: cursive;
+    font-family: "Damion", cursive;
 }
 
 #signblock .striking {
-    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-family: 'Libre Franklin', Verdana, sans-serif;
+    padding-bottom: 1.2rem;
 }
 
 .button {
@@ -102,7 +106,8 @@ header .icon {
 }
 
 #signblock .button {
-    margin: auto;
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
 }
 
 #signblock p {
@@ -224,4 +229,5 @@ footer .cr {
 
 .main {
     position: relative;
+    top: 4rem;
 }
