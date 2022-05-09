@@ -188,6 +188,7 @@ header .icon {
     font-weight: bold;
     font-size: 1rem;
     line-height: 1.4;
+    text-align: center;
 }
 
 #list-filters .list {
@@ -202,27 +203,26 @@ header .icon {
 
 #quotes {
     background-color: white;
-    align-items: center;
-    justify-content: center;
 }
 
 #quotes .words {
-    font-size: 30px;
-    color: black;
-    font-style: italic;
     display: flex;
     padding: 3rem 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 #quotes p {
     color: black;
     font-style: italic;
-    font-size: medium;
+    font-size: 1.8rem;
+    padding-right: 2rem;
+    line-height: 1.8;
 }
 
 footer {
     background-color: black;
-    padding: 3px 8px;
+    padding: 2rem 3rem;
 }
 
 footer .cr {
