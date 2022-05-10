@@ -181,6 +181,7 @@ header .icon {
     color: white;
     font-weight: bold;
     font-size: 2rem;
+    text-align: center;
 }
 
 #list-filters .filter h3 {
