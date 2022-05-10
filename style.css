@@ -78,7 +78,7 @@ header .icon {
 }
 
 #signblock {
-    background-color: slateblue;
+    background-color:yellowgreen;
     border: solid 5px gray;
     position: relative;
     left: 11%;
@@ -125,7 +125,7 @@ header .icon {
 #list-features {
     display: flex;
     justify-content: space-between;
-    background-color:cornflowerblue;
+    background-color:#f3f3f3;
     padding: 2.5rem 5%;
 }
 
@@ -231,6 +231,7 @@ footer .cr {
     display: flex;
     font-size: .8rem;
     justify-content: space-between;
+    padding-top: 2rem;
 }
 
 .main {
