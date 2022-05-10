@@ -203,6 +203,7 @@ header .icon {
 
 #quotes {
     background-color: white;
+    margin: 1.4rem auto;
 }
 
 #quotes .words {
@@ -221,14 +222,15 @@ header .icon {
 }
 
 footer {
-    background-color: black;
-    padding: 2rem 3rem;
+    background-color: #9b9b9b;
+    padding: 1.5rem 2rem;
 }
 
 footer .cr {
     color: white;
     display: flex;
-    font-size: small;
+    font-size: .8rem;
+    justify-content: space-between;
 }
 
 .main {
